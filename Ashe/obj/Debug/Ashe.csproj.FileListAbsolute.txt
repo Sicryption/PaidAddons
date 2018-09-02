@@ -1,0 +1,12 @@
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\Ashe.exe.config
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\Ashe.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\Ashe.pdb
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\EloBuddy.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\EloBuddy.SDK.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\SharpDX.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\obj\Debug\Ashe.csprojResolveAssemblyReference.cache
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\obj\Debug\Ashe.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\obj\Debug\Ashe.pdb

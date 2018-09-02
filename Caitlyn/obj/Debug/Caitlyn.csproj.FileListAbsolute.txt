@@ -1,0 +1,12 @@
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\Caitlyn.exe.config
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\Caitlyn.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\Caitlyn.pdb
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\EloBuddy.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\EloBuddy.SDK.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\SharpDX.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\obj\Debug\Caitlyn.csprojResolveAssemblyReference.cache
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\obj\Debug\Caitlyn.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Caitlyn\obj\Debug\Caitlyn.pdb

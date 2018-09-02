@@ -1,0 +1,4 @@
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\x86\Debug\Caitlyn.exe.config
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\obj\x86\Debug\Caitlyn.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\obj\x86\Debug\Caitlyn.pdb
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ashe\bin\x86\Debug\Ashe.exe.config

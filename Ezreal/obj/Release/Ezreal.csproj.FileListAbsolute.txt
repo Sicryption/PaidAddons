@@ -1,0 +1,12 @@
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\Ezreal.exe.config
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\Ezreal.exe
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\Ezreal.pdb
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\EloBuddy.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\EloBuddy.Sandbox.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\EloBuddy.SDK.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\SharpDX.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\bin\Release\Newtonsoft.Json.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\obj\Release\Ezreal.csprojResolveAssemblyReference.cache
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\obj\Release\Ezreal.exe
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Ezreal\obj\Release\Ezreal.pdb

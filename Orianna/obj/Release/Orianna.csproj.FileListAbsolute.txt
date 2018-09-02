@@ -1,0 +1,11 @@
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\Orianna.exe
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\Orianna.pdb
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\EloBuddy.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\EloBuddy.Sandbox.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\EloBuddy.SDK.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\SharpDX.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Release\Newtonsoft.Json.dll
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\obj\Release\Orianna.csprojResolveAssemblyReference.cache
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\obj\Release\Orianna.exe
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\obj\Release\Orianna.pdb

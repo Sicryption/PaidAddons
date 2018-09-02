@@ -1,0 +1,11 @@
+C:\Users\Chaos\Desktop\Orianna\obj\Debug\Orianna-cleaned.csprojResolveAssemblyReference.cache
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\Orianna.exe
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\Orianna.pdb
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\EloBuddy.dll
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\EloBuddy.SDK.dll
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\SharpDX.dll
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Chaos\Desktop\Orianna\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chaos\Desktop\Orianna\obj\Debug\Orianna.exe
+C:\Users\Chaos\Desktop\Orianna\obj\Debug\Orianna.pdb

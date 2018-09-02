@@ -1,0 +1,12 @@
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\Ezreal.exe.config
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\Ezreal.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\Ezreal.pdb
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\EloBuddy.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\EloBuddy.SDK.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\SharpDX.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\EloBuddy.Sandbox.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\obj\x86\Debug\Ezreal.csprojResolveAssemblyReference.cache
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\obj\x86\Debug\Ezreal.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Ezreal\obj\x86\Debug\Ezreal.pdb

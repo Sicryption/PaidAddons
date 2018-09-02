@@ -1,0 +1,5 @@
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Debug\Orianna.exe
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\bin\Debug\Orianna.pdb
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\obj\Debug\Orianna.exe
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\obj\Debug\Orianna.pdb
+C:\Users\Chaos\Documents\GitHub\PrivateAddons\Orianna\obj\Debug\Orianna.csprojResolveAssemblyReference.cache

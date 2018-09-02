@@ -1,0 +1,2027 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EloBuddy.SDK</name>
+    </assembly>
+    <members>
+        <member name="M:EloBuddy.SDK.DamageLibraryManager.ChampionDamageDatabase.NewOrExistingSpell(EloBuddy.SpellSlot)">
+            <summary>
+            Returns a new <see cref="T:EloBuddy.SDK.DamageLibraryManager.SpellDamageDatabase"/> if the specified <see cref="T:EloBuddy.SpellSlot"/> is not already in the database.
+            If the <see cref="T:EloBuddy.SpellSlot"/> is in the database, it will return the value associated to it.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Geometry.PathLength(System.Collections.Generic.List{SharpDX.Vector2})">
+            <summary>
+            Returns the total distance of a path.
+            </summary>
+            <param name="path">The path.</param>
+            <returns></returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.HasItem(System.String,EloBuddy.AIHeroClient)">
+            <summary>
+            Returns true if the hero has the item.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.HasItem(System.Int32,EloBuddy.AIHeroClient)">
+            <summary>
+            Returns true if the hero has the item.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.HasItem(EloBuddy.ItemId,EloBuddy.AIHeroClient)">
+            <summary>
+            Returns true if the hero has the item.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.CanUseItem(System.String)">
+            <summary>
+            Retruns true if the player has the item and its not on cooldown.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.CanUseItem(System.Int32)">
+            <summary>
+            Retruns true if the player has the item and its not on cooldown.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.CanUseItem(EloBuddy.ItemId)">
+            <summary>
+            Retruns true if the player has the item and its not on cooldown.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.UseItem(System.String,EloBuddy.Obj_AI_Base)">
+            <summary>
+            Casts the item on the target.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.UseItem(System.Int32,EloBuddy.Obj_AI_Base)">
+            <summary>
+            Casts the item on the target.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.UseItem(System.Int32,SharpDX.Vector2)">
+            <summary>
+            Casts the item on a Vector2 position.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.UseItem(System.Int32,SharpDX.Vector3)">
+            <summary>
+            Casts the item on a Vector3 position.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.UseItem(EloBuddy.ItemId,EloBuddy.Obj_AI_Base)">
+            <summary>
+            Casts the item on the target.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.UseItem(EloBuddy.ItemId,SharpDX.Vector2)">
+            <summary>
+            Casts the item on a Vector2 position.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Item.UseItem(EloBuddy.ItemId,SharpDX.Vector3)">
+            <summary>
+            Casts the item on a Vector3 position.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Core.DelayAction(System.Action,System.Int32)">
+            <summary>
+            Delay an Action with the given delayTime. This method is thread-safe.
+            </summary>
+            <param name="action">The Action to delay</param>
+            <param name="delayTime">The delay time when the Action should be invoked</param>
+        </member>
+        <member name="P:EloBuddy.SDK.EntityManager.Heroes.AllHeroes">
+            <summary>
+            A list containing all heroes in the current match
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.EntityManager.Heroes.Allies">
+            <summary>
+            A list containing only ally heroes in the current match (including local player)
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.EntityManager.Heroes.Enemies">
+            <summary>
+            A list containing only enemy heroes in the current match
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.EntityManager.Turrets.AllTurrets">
+            <summary>
+            A list containing all turrets in the current match
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.EntityManager.Turrets.Allies">
+            <summary>
+            A list containing only ally turrets in the current match
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.EntityManager.Turrets.Enemies">
+            <summary>
+            A list containing only enemy turrets in the current match
+            </summary>
+        </member>
+        <member name="T:EloBuddy.SDK.Extensions">
+            <summary>
+            Misc
+            </summary>
+            <summary>
+            Geometry
+            </summary>
+            <summary>
+            Numeric and Math
+            </summary>
+            <summary>
+            Buffs
+            </summary>
+            <summary>
+            Booleans, like IsXXX
+            </summary>
+            <summary>
+            Spells related
+            </summary>
+            <summary>
+            SpellSlot
+            </summary>
+            <summary>
+            Item Related
+            </summary>
+            <summary>
+            Turret Related
+            </summary>
+            <summary>
+            Health Related
+            </summary>
+            <summary>
+            Vectors
+            </summary>
+            <summary>
+            Count Extensions
+            </summary>
+            <summary>
+            Color Extensions
+            </summary>
+            <summary>
+            Drawings
+            </summary>
+            <summary>
+            Minion related
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsMinion(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns true if the source object is a minion.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsStructure(EloBuddy.GameObject)">
+            <summary>
+            Returns true if the source object is a structure. Structures are: Turrets, Inhibs and Nexus's.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsWard(EloBuddy.GameObject)">
+            <summary>
+            Returns true if the source object is a ward.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetAutoAttackRange(EloBuddy.Obj_AI_Base,EloBuddy.AttackableUnit)">
+            <summary>
+            Returns the Auto Attack range of the unit given.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IdEquals(EloBuddy.GameObject,EloBuddy.GameObject)">
+            <summary>
+            Returns true if the source object and the target object have the same network id.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Pow(System.Int32)">
+            <summary>
+            Returns the given number raised to the power of two.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Pow(System.UInt32)">
+            <summary>
+            Returns the given number raised to the power of two.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Pow(System.Double)">
+            <summary>
+            Returns the given number raised to the power of two.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Pow(System.Single)">
+            <summary>
+            Returns the given number raised to the power of two.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Sqrt(System.Int32)">
+            <summary>
+            Returns the square root of the given number.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Sqrt(System.UInt32)">
+            <summary>
+            Returns the square root of the given number.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Sqrt(System.Double)">
+            <summary>
+            Returns the square root of the given number.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Sqrt(System.Single)">
+            <summary>
+            Returns the square root of the given number.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsValid(EloBuddy.BuffInstance)">
+            <summary>
+            Returns true if the buff is not null.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsValid(SharpDX.Vector3,System.Boolean)">
+            <summary>
+            Returns true if the vector is not zero.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsValid(SharpDX.Vector2,System.Boolean)">
+            <summary>
+            Returns true if the vector is not zero.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.HasUndyingBuff(EloBuddy.AIHeroClient,System.Boolean)">
+            <summary>
+            Returns true if the unit is effected by Aatrox passive, Fiora W, Tryndamere R, Vladimir W, Kayle R, Kindred R, Zilean R.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsValidTarget(EloBuddy.AttackableUnit,System.Nullable{System.Single},System.Boolean,System.Nullable{SharpDX.Vector3})">
+            <summary>
+            Returns true if the target is not null, alive, visible, targetable, and not invulnerable.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsValidMissile(EloBuddy.MissileClient,System.Boolean)">
+            <summary>
+            Returns true if the missile is not null and if the missiles target is not null. If check target is true: check if the missiles position is in range of the targets bounding box.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsInFountainRange(EloBuddy.Obj_AI_Base,System.Boolean)">
+            <summary>
+            Returns true if the unit is in range of the fountain of the specified team.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsInShopRange(EloBuddy.AIHeroClient)">
+            <summary>
+            Returns true if the unit is in shop range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsRecalling(EloBuddy.AIHeroClient)">
+            <summary>
+            Returns true if the unit is recalling.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Direction(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the direction the unit is facing.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsFacing(EloBuddy.Obj_AI_Base,SharpDX.Vector3)">
+            <summary>
+            Returns true if the original unit is facing within 90 degrees of the specified position.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsFacing(EloBuddy.Obj_AI_Base,EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns true if the original unit is facing within 90 degrees of the second unit.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsFacing(SharpDX.Vector3,SharpDX.Vector3)">
+            <summary>
+            Returns true if the original position perpendicular angle is within 90 degrees.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsBothFacing(EloBuddy.Obj_AI_Base,EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns true if both units are facing the same direction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsValid(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Checks if the target is not null and if the unit is valid.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsInAutoAttackRange(EloBuddy.Obj_AI_Base,EloBuddy.AttackableUnit)">
+            <summary>
+            Returns true if target is in the Auto Attack range of the original object.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsAlly(EloBuddy.GameObjectTeam)">
+            <summary>
+            Returns true if the team is the same as the Player's team.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsEnemy(EloBuddy.GameObjectTeam)">
+            <summary>
+            Returns true if the team is opposite of the Player's team.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsNeutral(EloBuddy.GameObjectTeam)">
+            <summary>
+            Returns true if the team is Neutral.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetHighestSpellRange(EloBuddy.AIHeroClient)">
+            <summary>
+            Returns the range of the spell with the largest range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetLowestSpellRange(EloBuddy.AIHeroClient)">
+            <summary>
+            Returns the range of the spell with the lowest range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetSpellDataFromName(EloBuddy.AIHeroClient,System.String)">
+            <summary>
+            Returns the SpellDataInst of a spell if the target has the spell given.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetSpellSlotFromName(EloBuddy.AIHeroClient,System.String)">
+            <summary>
+            Returns the SpellSlot of the Spell given if the target has the spell. Else returns SpellSlot.Unknown
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.FindSummonerSpellSlotFromName(EloBuddy.AIHeroClient,System.String)">
+            <summary>
+            Returns the SpellSlot of the SummonerSpell given if the target has the spell. Else returns SpellSlot.Unknown
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.HasItem(System.Collections.Generic.IEnumerable{EloBuddy.InventorySlot},System.Int32[])">
+            <summary>
+            Returns true if the inventory has any of the items given.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.HasItem(System.Collections.Generic.IEnumerable{EloBuddy.InventorySlot},EloBuddy.ItemId[])">
+            <summary>
+            Returns true if the inventory has any of the items given.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.HasItem(EloBuddy.Obj_AI_Base,System.Int32[])">
+            <summary>
+            Returns true if the target has any of the items given.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.HasItem(EloBuddy.Obj_AI_Base,EloBuddy.ItemId[])">
+            <summary>
+            Returns true if the target has any of the items given.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetItemSlot(System.Collections.Generic.IEnumerable{EloBuddy.InventorySlot},System.Int32[])">
+            <summary>
+            Returns the first InventorySlot of the Item if the Inventory has any of the items given. Returns null if the item does not exist.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetItemSlot(System.Collections.Generic.IEnumerable{EloBuddy.InventorySlot},EloBuddy.ItemId[])">
+            <summary>
+            Returns the first InventorySlot of the Item if the Inventory has any of the items given. Returns null if the item does not exist.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetItemSlot(EloBuddy.Obj_AI_Base,System.Int32[])">
+            <summary>
+            Returns the first InventorySlot of the Item if the target has any of the items given. Returns null if the item does not exist.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetItemSlot(EloBuddy.Obj_AI_Base,EloBuddy.ItemId[])">
+            <summary>
+            Returns the first InventorySlot of the Item if the target has any of the items given. Returns null if the item does not exist.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.LastTarget(EloBuddy.Obj_AI_Turret)">
+            <summary>
+            Returns the last target a turret has attacked.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.TotalHealth(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the amount of health the unit has. Includes Skaarl's HP.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.TotalMaxHealth(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the amount of maximum amount of health the unit can have. Includes Skaarl's HP.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.TotalMissingHealth(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the amount of missing health the unit has.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.TotalShield(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the total amount of shields the unit has. 
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.TotalShieldHealth(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the amount of health the unit has and total amount of shields it has.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.TotalShieldMaxHealth(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the amount of maximum health the unit has and total amount of shields it has.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.To2D(System.Collections.Generic.List{SharpDX.Vector3})">
+            <summary>
+            Changes List of Vector3 to List of Vector2 by removing the Z axis.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.To2D(SharpDX.Vector3)">
+            <summary>
+            Changes Vector3 to Vector2 by removing the Z axis.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.To3D(SharpDX.Vector2,System.Int32)">
+            <summary>
+            Changes Vector2 to Vector3 by adding the height parameter as it's Z axis.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.To3DWorld(SharpDX.Vector2)">
+            <summary>
+            Changes Vector2 to Vector3 by setting Z equal to the height of the land at the specified coordinates.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Normalized(SharpDX.Vector2)">
+            <summary> 
+            Normalizes a Vector2. This results in an angle with a length of 1.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Normalized(SharpDX.Vector3)">
+            <summary> 
+            Normalizes a Vector3. This results in an angle with a length of 1.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.WorldToScreen(SharpDX.Vector3)">
+            <summary> 
+            Converts a World point to it's Screen equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.ScreenToWorld(SharpDX.Vector2)">
+            <summary> 
+            Converts a Screen point to it's World equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.WorldToGrid(SharpDX.Vector3)">
+            <summary> 
+            Converts a World point to it's Grid equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.WorldToGrid(SharpDX.Vector2)">
+            <summary> 
+            Converts a World point to it's Grid equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GridToWorld(SharpDX.Vector3)">
+            <summary> 
+            Converts a Grid point to it's World equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GridToWorld(SharpDX.Vector2)">
+            <summary> 
+            Converts a Grid point to it's World equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.WorldToMinimap(SharpDX.Vector3)">
+            <summary> 
+            Converts a World point to it's Minimap equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.MinimapToWorld(SharpDX.Vector2)">
+            <summary> 
+            Converts a Minimap point to it's World equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.ToNavMeshCell(SharpDX.Vector3)">
+            <summary> 
+            Converts a point to it's NavMeshCell equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.ToNavMeshCell(SharpDX.Vector2)">
+            <summary> 
+            Converts a point to it's NavMeshCell equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.AngleBetween(SharpDX.Vector3,SharpDX.Vector3)">
+            <summary> 
+            Finds the angle between to points and retuns it as a radian.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector3,EloBuddy.GameObject,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the targets position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector3,EloBuddy.Obj_AI_Base,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the targets position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the target position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector3,SharpDX.Vector2,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the target position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector2,EloBuddy.GameObject,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the targets position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector2,EloBuddy.Obj_AI_Base,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the targets position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector2,SharpDX.Vector3,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the target position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)">
+            <summary> 
+            Returns a position that runs from the source position to the target position with the length of the range specified.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetCollisionFlags(SharpDX.Vector2)">
+            <summary> 
+            Returns what type of objects are at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.GetCollisionFlags(SharpDX.Vector3)">
+            <summary> 
+            Returns what type of objects are at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsWall(SharpDX.Vector2)">
+            <summary> 
+            Returns true if there is a wall object at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsWall(SharpDX.Vector3)">
+            <summary> 
+            Returns true if there is a wall object at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsBuilding(SharpDX.Vector2)">
+            <summary> 
+            Returns true if there is a building object at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsBuilding(SharpDX.Vector3)">
+            <summary> 
+            Returns true if there is a building object at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsGrass(SharpDX.Vector2)">
+            <summary> 
+            Returns true if there is a grass object at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsGrass(SharpDX.Vector3)">
+            <summary> 
+            Returns true if there is a grass object at the specified vector.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsUnderTurret(SharpDX.Vector2)">
+            <summary> 
+            Returns true if the specified position is under any alive turrets.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsUnderTurret(SharpDX.Vector3)">
+            <summary> 
+            Returns true if the specified position is under any alive turrets.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsUnderTurret(EloBuddy.Obj_AI_Base)">
+            <summary> 
+            Returns true if the specified position is under any alive turrets.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsUnderEnemyturret(EloBuddy.Obj_AI_Base)">
+            <summary> 
+            Returns true if the specified object is under a turret of the opposite team.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsUnderHisturret(EloBuddy.Obj_AI_Base)">
+            <summary> 
+            Returns true if the specified object is under a turret of the same team.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.RealPath(EloBuddy.Obj_AI_Base)">
+            <summary> 
+            Returns the path the unit is taking.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsOnScreen(SharpDX.Vector2)">
+            <summary> 
+            Checks if a Vector2 is visible on the screen. Use WorldToScreen before using this method.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsOnScreen(SharpDX.Vector3)">
+            <summary> 
+            Checks if a Vector3 is visible on the screen. 
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyChampionsInRange(SharpDX.Vector3,System.Single)">
+            <summary>
+            Returns the amount of Enemy Champions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyChampionsInRange(SharpDX.Vector2,System.Single)">
+            <summary>
+            Returns the amount of Enemy Champions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyChampionsInRange(EloBuddy.GameObject,System.Single)">
+            <summary>
+            Returns the amount of Enemy Champions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyChampionsInRange(SharpDX.Vector3,System.Single)">
+            <summary>
+            Returns the amount of Ally Champions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyChampionsInRange(SharpDX.Vector2,System.Single)">
+            <summary>
+            Returns the amount of Ally Champions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyChampionsInRange(EloBuddy.GameObject,System.Single)">
+            <summary>
+            Returns the amount of Ally Champions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyMinionsInRange(SharpDX.Vector3,System.Single)">
+            <summary>
+            Returns the amount of Ally Minions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyMinionsInRange(SharpDX.Vector2,System.Single)">
+            <summary>
+            Returns the amount of Ally Minions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyMinionsInRange(EloBuddy.GameObject,System.Single)">
+            <summary>
+            Returns the amount of Ally Minions in range. Uses Server Position if possible.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyMinionsInRange(SharpDX.Vector3,System.Single)">
+            <summary>
+            Returns the amount of Enemy Minions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyMinionsInRange(SharpDX.Vector2,System.Single)">
+            <summary>
+            Returns the amount of Enemy Minions in range.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyMinionsInRange(EloBuddy.GameObject,System.Single)">
+            <summary>
+            Returns the amount of Enemy Minions in range. Uses Server Position if possible.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyHeroesInRangeWithPrediction(SharpDX.Vector2,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Enemy Champions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyHeroesInRangeWithPrediction(SharpDX.Vector3,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Enemy Champions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyHeroesInRangeWithPrediction(EloBuddy.GameObject,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Enemy Champions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyChampionsInRangeWithPrediction(SharpDX.Vector2,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Ally Champions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyChampionsInRangeWithPrediction(SharpDX.Vector3,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Ally Champions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyChampionsInRangeWithPrediction(EloBuddy.GameObject,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Ally Champions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyMinionsInRangeWithPrediction(SharpDX.Vector2,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Enemy Minions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyMinionsInRangeWithPrediction(SharpDX.Vector3,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Enemy Minions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountEnemyMinionsInRangeWithPrediction(EloBuddy.GameObject,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Enemy Minions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyMinionsInRangeWithPrediction(SharpDX.Vector2,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Ally Minions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyMinionsInRangeWithPrediction(SharpDX.Vector3,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Ally Minions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.CountAllyMinionsInRangeWithPrediction(EloBuddy.GameObject,System.Int32,System.Int32)">
+            <summary>
+            Returns the amount of Ally Minions in range with Prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.ToSharpDX(System.Drawing.Color)">
+            <summary>
+            Converts a System.Drawing color to it's SharpDX equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.ToSystem(SharpDX.Color)">
+            <summary>
+            Converts a SharpDX color to it's System.Drawing equivalent.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsPet(EloBuddy.Obj_AI_Minion)">
+            <summary>
+            Returns true if the object is a pet.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Extensions.IsClone(EloBuddy.Obj_AI_Minion)">
+            <summary>
+            Returns true if the object is a clone.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Orbwalker.PreAttackArgs.Process">
+            <summary>
+            Gets or sets the process state of the event. When set to false, the attack attempt will be cancelled.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Orbwalker.ResetAutoAttack">
+            <summary>
+            Resets the auto attack internally. This will not make it actually reset it in game!
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Orbwalker.OrbwalkTo(SharpDX.Vector3)">
+            <summary>
+            Orbwalks to the desired position, tries to autoattack if it's possible, it moves if isn't possible.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Orbwalker.MoveTo(SharpDX.Vector3)">
+            <summary>
+            Moves to the desired position, checking holdradius distance.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Orbwalker.GetTarget">
+            <summary>
+            Returns the target that the orbwalker will focus.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Health.GetPrediction(System.Collections.Generic.Dictionary{EloBuddy.Obj_AI_Base,System.Int32})">
+            <summary>
+            Returns a dictionary that contains the minions and their predicted healths, using a dictionary that contains the minion and the delay wanted in milliseconds. 
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Health.GetPrediction(EloBuddy.Obj_AI_Base,System.Int32)">
+            <summary>
+            Returns the unit health after a set time delay milliseconds. 
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.StoredPath.Path">
+            <summary>
+            The path
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.StoredPath.Tick">
+            <summary>
+            The tick
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.StoredPath.Time">
+            <summary>
+            Gets the time.
+            </summary>
+            <value>The time.</value>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.StoredPath.WaypointCount">
+            <summary>
+            Gets the waypoint count.
+            </summary>
+            <value>The waypoint count.</value>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.StoredPath.StartPoint">
+            <summary>
+            Gets the start point.
+            </summary>
+            <value>The start point.</value>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.StoredPath.EndPoint">
+            <summary>
+            Gets the end point.
+            </summary>
+            <value>The end point.</value>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PathTracker.MaxTime">
+            <summary>
+            The maximum time
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PathTracker.StoredPaths">
+            <summary>
+            The stored paths
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PathTracker.#cctor">
+            <summary>
+            Initializes static members of the <see cref="T:EloBuddy.SDK.Prediction.Position.PathTracker"/> class.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PathTracker.Obj_AI_Hero_OnNewPath(EloBuddy.Obj_AI_Base,EloBuddy.GameObjectNewPathEventArgs)">
+            <summary>
+            Fired when a unit changes it's path.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:EloBuddy.GameObjectNewPathEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PathTracker.GetStoredPaths(EloBuddy.Obj_AI_Base,System.Double)">
+            <summary>
+            Gets the stored paths.
+            </summary>
+            <param name="unit">The unit.</param>
+            <param name="maxT">The maximum time.</param>
+            <returns>List&lt;StoredPath&gt;.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PathTracker.GetCurrentPath(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Gets the current path.
+            </summary>
+            <param name="unit">The unit.</param>
+            <returns>StoredPath.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PathTracker.GetTendency(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Gets the tendency.
+            </summary>
+            <param name="unit">The unit.</param>
+            <returns>Vector3.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PathTracker.GetMeanSpeed(EloBuddy.Obj_AI_Base,System.Double)">
+            <summary>
+            Gets the mean speed.
+            </summary>
+            <param name="unit">The unit.</param>
+            <param name="maxT">The maximum time.</param>
+            <returns>System.Double.</returns>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.CollisionEx._wallCastT">
+            <summary>
+            The tick yasuo casted wind wall.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.CollisionEx._yasuoWallCastedPos">
+            <summary>
+            The yasuo wind wall casted position.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.CollisionEx.#cctor">
+            <summary>
+            Initializes static members of the <see cref="T:EloBuddy.SDK.Prediction.Position.Collision"/> class.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.CollisionEx.Obj_AI_Hero_OnProcessSpellCast(EloBuddy.Obj_AI_Base,EloBuddy.GameObjectProcessSpellCastEventArgs)">
+            <summary>
+            Fired when the game processes a spell cast.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:EloBuddy.GameObjectProcessSpellCastEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.CollisionEx.GetCollision(System.Collections.Generic.List{SharpDX.Vector3},EloBuddy.SDK.Prediction.Position.PredictionInput)">
+            <summary>
+            Returns the list of the units that the skillshot will hit before reaching the set positions.
+            </summary>
+            <param name="positions">The positions.</param>
+            <param name="input">The input.</param>
+            <returns>List&lt;Obj_AI_Base&gt;.</returns>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput._from">
+            <summary>
+            The position that the skillshot will be launched from.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput._rangeCheckFrom">
+            <summary>
+            The position to check the range from.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Aoe">
+            <summary>
+            If set to <c>true</c> the prediction will hit as many enemy heroes as posible.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Collision">
+            <summary>
+            <c>true</c> if the spell collides with units.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.CollisionObjects">
+            <summary>
+            Array that contains the unit types that the skillshot can collide with.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Delay">
+            <summary>
+            The skillshot delay in seconds.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Radius">
+            <summary>
+            The skillshot width's radius or the angle in case of the cone skillshots.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Range">
+            <summary>
+            The skillshot range in units.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Speed">
+            <summary>
+            The skillshot speed in units per second.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Type">
+            <summary>
+            The skillshot type.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.Unit">
+            <summary>
+            The unit that the prediction will made for.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionInput.UseBoundingRadius">
+            <summary>
+            Set to true to increase the prediction radius by the unit bounding radius.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.PredictionInput.From">
+            <summary>
+            The position from where the skillshot missile gets fired.
+            </summary>
+            <value>From.</value>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.PredictionInput.RangeCheckFrom">
+            <summary>
+            The position from where the range is checked.
+            </summary>
+            <value>The range check from.</value>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.PredictionInput.RealRadius">
+            <summary>
+            Gets the real radius.
+            </summary>
+            <value>The real radius.</value>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionOutput._aoeTargetsHitCount">
+            <summary>
+            The AoE target hit.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionOutput._castPosition">
+            <summary>
+            The calculated cast position
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionOutput._unitPosition">
+            <summary>
+            The predicted unit position
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionOutput.AoeTargetsHit">
+            <summary>
+            The list of the targets that the spell will hit (only if aoe was enabled).
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionOutput.CollisionObjects">
+            <summary>
+            The list of the units that the skillshot will collide with.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionOutput.Hitchance">
+            <summary>
+            Returns the hitchance.
+            </summary>
+        </member>
+        <member name="F:EloBuddy.SDK.Prediction.Position.PredictionOutput.Input">
+            <summary>
+            The input
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.PredictionOutput.CastPosition">
+            <summary>
+            The position where the skillshot should be casted to increase the accuracy.
+            </summary>
+            <value>The cast position.</value>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.PredictionOutput.AoeTargetsHitCount">
+            <summary>
+            The number of targets the skillshot will hit (only if aoe was enabled).
+            </summary>
+            <value>The aoe targets hit count.</value>
+        </member>
+        <member name="P:EloBuddy.SDK.Prediction.Position.PredictionOutput.UnitPosition">
+            <summary>
+            The position where the unit is going to be when the skillshot reaches his position.
+            </summary>
+            <value>The unit position.</value>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.Initialize">
+            <summary>
+            Initializes this instance.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetPrediction(EloBuddy.Obj_AI_Base,System.Single)">
+            <summary>
+            Gets the prediction.
+            </summary>
+            <param name="unit">The unit.</param>
+            <param name="delay">The delay.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetPrediction(EloBuddy.Obj_AI_Base,System.Single,System.Single)">
+            <summary>
+            Gets the prediction.
+            </summary>
+            <param name="unit">The unit.</param>
+            <param name="delay">The delay.</param>
+            <param name="radius">The radius.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetPrediction(EloBuddy.Obj_AI_Base,System.Single,System.Single,System.Single)">
+            <summary>
+            Gets the prediction.
+            </summary>
+            <param name="unit">The unit.</param>
+            <param name="delay">The delay.</param>
+            <param name="radius">The radius.</param>
+            <param name="speed">The speed.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetPrediction(EloBuddy.Obj_AI_Base,System.Single,System.Single,System.Single,EloBuddy.SDK.Prediction.Position.CollisionableObjectsEx[])">
+            <summary>
+            Gets the prediction.
+            </summary>
+            <param name="unit">The unit.</param>
+            <param name="delay">The delay.</param>
+            <param name="radius">The radius.</param>
+            <param name="speed">The speed.</param>
+            <param name="collisionable">The collisionable objects.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetPrediction(EloBuddy.SDK.Prediction.Position.PredictionInput)">
+            <summary>
+            Gets the prediction.
+            </summary>
+            <param name="input">The input.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetPrediction(EloBuddy.SDK.Prediction.Position.PredictionInput,System.Boolean,System.Boolean)">
+            <summary>
+            Gets the prediction.
+            </summary>
+            <param name="input">The input.</param>
+            <param name="ft">if set to <c>true</c>, will add extra delay to the spell..</param>
+            <param name="checkCollision">if set to <c>true</c>, checks collision.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetDashingPrediction(EloBuddy.SDK.Prediction.Position.PredictionInput)">
+            <summary>
+            Gets the dashing prediction.
+            </summary>
+            <param name="input">The input.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetImmobilePrediction(EloBuddy.SDK.Prediction.Position.PredictionInput,System.Double)">
+            <summary>
+            Gets the immobile prediction.
+            </summary>
+            <param name="input">The input.</param>
+            <param name="remainingImmobileT">The remaining immobile t.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetStandardPrediction(EloBuddy.SDK.Prediction.Position.PredictionInput)">
+            <summary>
+            Gets the standard prediction.
+            </summary>
+            <param name="input">The input.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.UnitIsImmobileUntil(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Gets the time the unit is immobile untill.
+            </summary>
+            <param name="unit">The unit.</param>
+            <returns>System.Double.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionEx.GetPositionOnPath(EloBuddy.SDK.Prediction.Position.PredictionInput,System.Collections.Generic.List{SharpDX.Vector2},System.Single)">
+            <summary>
+            Gets the position on path.
+            </summary>
+            <param name="input">The input.</param>
+            <param name="path">The path.</param>
+            <param name="speed">The speed.</param>
+            <returns>PredictionOutput.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.GetPrediction(EloBuddy.Obj_AI_Base,EloBuddy.SDK.Prediction.Position.PredictionData,System.Boolean)">
+            <summary>
+            Predict cast position and collision for a specific target.
+            </summary>
+            <param name="target"> The target to predict.</param>
+            <param name="data"> The prediction data.</param>
+            <param name="skipCollision"> Skip collision checks.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.GetPredictionAoe(EloBuddy.Obj_AI_Base[],EloBuddy.SDK.Prediction.Position.PredictionData)">
+            <summary>
+            Predicts all the possible positions to hit as many targets as possible from a predifined group of targets.
+            </summary>
+            <param name="targets"> The targets to predict. If null then the enemy heroes will be chosen instead.</param>
+            <param name="data"> The prediction data.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.GetRealPath(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Returns the actual path of a unit.
+            </summary>
+            <param name="unit"> The unit.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictUnitPosition(EloBuddy.Obj_AI_Base,System.Int32)">
+            <summary>
+            Predicts the position of a moving unit after a specified amount of time.
+            </summary>
+            <param name="unit"> The unit.</param>
+            <param name="time"> The time in milliseconds.</param>
+        </member>
+        <member name="T:EloBuddy.SDK.Prediction.Position.PredictionData">
+            <summary>
+            Holds all the necessary data needed to perform prediction.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.PredictionData.#ctor(EloBuddy.SDK.Prediction.Position.PredictionData.PredictionType,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{SharpDX.Vector3})">
+            <summary>
+            Initializes a new instance of the PredictionData class.
+            </summary>
+            <param name="type"> The prediction type.</param>
+            <param name="range"> The maximum range of the skillshot.</param>
+            <param name="radius"> The radius of the skillshot.</param>
+            <param name="angle"> The angle in degrees of the skillshot. It is used only in cone spells.</param>
+            <param name="delay"> The delay (or cast time) of the skillshot.</param>
+            <param name="speed"> The movement speed of the missile.</param>
+            <param name="allowCollisionCount"> The number of collision objects the skillshot can pass through. It is used only in Linear skillshots</param>
+            <param name="sourcePosition"> The start position of the skillshot. Player's position is considered the starting point by default.</param>
+        </member>
+        <member name="T:EloBuddy.SDK.Prediction.Position.Collision">
+            <summary>
+            Computes collision between objects.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.Collision.MovingObjectsCollision(SharpDX.Vector2,SharpDX.Vector2,System.Single,System.Single,System.Boolean,SharpDX.Vector2,SharpDX.Vector2,System.Single,System.Single,System.Boolean)">
+            <summary>
+            Determines whether two moving objects will collide within a predetermined path. The movement is considered linear.
+            </summary>
+            <param name="start"> The starting point of the first object.</param>
+            <param name="destination"> The destination point of the first object.</param>
+            <param name="hitbox"> The hitbox radius of the first object.</param>
+            <param name="speed"> The movement speed of the first object.</param>
+            <param name="isUnit"> Determines whether the object is a unit. Set to true if the first object disappears after reaching its destination.</param>                
+            <param name="start2"> The starting point of the second object.</param>
+            <param name="destination2"> The destination point of the second object.</param>
+            <param name="hitbox2"> The hitbox radius of the second object.</param>
+            <param name="speed2"> The movement speed of the second object.</param>
+            <param name="isUnit2"> Determines whether the object is a unit. Set to true if the second object disappears after reaching its destination.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.Collision.LinearMissileCollision(EloBuddy.Obj_AI_Base,SharpDX.Vector2,SharpDX.Vector2,System.Single,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Determines whether a unit will collide with a linear missile along a predetermined path.
+            </summary>
+            <param name="unit"> The unit to check collision.</param>
+            <param name="missileStartPos"> The starting point of the missile.</param>
+            <param name="missileEndPos"> The destination point of the missile.</param>
+            <param name="missileSpeed"> Missile's speed.</param>
+            <param name="missileWidth"> Missile's width. The width is equal to the double of the missile's hitbox radius.</param>
+            <param name="delay"> The time (in milliseconds) it will take for the missile to spawn.</param>
+            <param name="extraRadius"> The extra hitbox radius you can assign to the unit. Default value: 0.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.Collision.CircularMissileCollision(EloBuddy.Obj_AI_Base,SharpDX.Vector2,SharpDX.Vector2,System.Single,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Determines whether a unit will collide with a circular missile along a predetermined path. Circular missiles cause collision only at the destination point.
+            </summary>
+            <param name="unit"> The unit to check collision.</param>
+            <param name="missileStartPos"> The starting point of the missile.</param>
+            <param name="missileEndPos"> The destination point of the missile.</param>
+            <param name="missileSpeed"> Missile's speed.</param>
+            <param name="missileRadius"> Missile's collision radius.</param>
+            <param name="delay"> The time (in milliseconds) it will take for the missile to spawn.</param>
+            <param name="extraRadius"> The extra hitbox radius you can assign to the unit. Default value: 0.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.Collision.GetCollisionPoint(SharpDX.Vector2,SharpDX.Vector2,SharpDX.Vector2,System.Single,System.Single)">
+            <summary>
+            Computes the point where an object can collide with another object moving along a predetermined path. There may not always exist a valid point.
+            </summary>
+            <param name="start"> The starting point of the pretedermined path.</param>
+            <param name="end"> The ending point of the predetermined path.</param>
+            <param name="position"> The current position of the object.</param>
+            <param name="speed"> The movement speed of the object moving along the predetermined path.</param>
+            <param name="speed2"> The movement speed of the object.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Prediction.Position.Collision.GetYasuoWallCollision(SharpDX.Vector3,SharpDX.Vector3)">
+            <summary>
+            Returns the point that intersects with Start and End, returns Vector3.Zero if doesn't collide.
+            </summary>
+            <param name="start"> The start point.</param>
+            <param name="end"> The end point.</param>
+        </member>
+        <member name="T:EloBuddy.SDK.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Config">
+            <summary>
+              Looks up a localized string similar to {
+            &quot;Colors&quot;: 
+               {
+                   &quot;Scrollbar&quot;:  { &quot;A&quot;: 200, &quot;R&quot;: 100, &quot;G&quot;: 100, &quot;B&quot;: 100 },
+                   &quot;ScrollbarBackground&quot;:  { &quot;A&quot;: 255, &quot;R&quot;: 0, &quot;G&quot;: 0, &quot;B&quot;: 0 }
+               },
+               &quot;SpriteAtlas&quot;: 
+               {
+                   &quot;MainForm&quot;: 
+                   {
+                       &quot;Complete&quot;: 
+                       {
+                           &quot;X&quot;: 0,
+                           &quot;Y&quot;: 0,
+                           &quot;Width&quot;: 758,
+                           &quot;Height&quot;: 598
+                       },
+                       &quot;Header&quot;: 
+                       {
+                           &quot;X&quot;: 0,
+                           &quot;Y&quot;: 0,
+                           &quot;Width&quot;:  [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Gapclosers">
+            <summary>
+              Looks up a localized string similar to [
+               {
+                   &quot;ChampName&quot;: &quot;Aatrox&quot;,
+                   &quot;SpellSlot&quot;: &quot;Q&quot;,
+                   &quot;SpellName&quot;: &quot;aatroxq&quot;,
+                   &quot;SkillType&quot;: &quot;Skillshot&quot;
+               },
+               {
+                   &quot;ChampName&quot;: &quot;Akali&quot;,
+                   &quot;SpellSlot&quot;: &quot;R&quot;,
+                   &quot;SpellName&quot;: &quot;akalishadowdance&quot;,
+                   &quot;SkillType&quot;: &quot;Targeted&quot;
+               },
+               {
+                   &quot;ChampName&quot;: &quot;Alistar&quot;,
+                   &quot;SpellSlot&quot;: &quot;W&quot;,
+                   &quot;SpellName&quot;: &quot;headbutt&quot;,
+                   &quot;SkillType&quot;: &quot;Targeted&quot;
+               },
+               {
+                   &quot;ChampName&quot;: &quot;Corki&quot;,
+                   &quot;SpellSlot&quot;: &quot;W&quot;,
+                   &quot;Spel [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Gill_Sans_MT_Light">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Gill_Sans_MT_Pro_Book">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Gill_Sans_MT_Pro_Medium">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.ItemData">
+            <summary>
+              Looks up a localized string similar to {
+              &quot;1001&quot;:{
+                 &quot;name&quot;:&quot;Boots of Speed&quot;,
+                 &quot;group&quot;:&quot;BootsNormal&quot;,
+                 &quot;description&quot;:&quot;&lt;groupLimit&gt;Limited to 1.&lt;/groupLimit&gt;&lt;br&gt;&lt;br&gt;&lt;unique&gt;UNIQUE Passive - Enhanced Movement:&lt;/unique&gt; +25 Movement Speed&quot;,
+                 &quot;colloq&quot;:&quot;;&quot;,
+                 &quot;plaintext&quot;:&quot;Slightly increases Movement Speed&quot;,
+                 &quot;into&quot;:[
+                    &quot;3006&quot;,
+                    &quot;3047&quot;,
+                    &quot;3020&quot;,
+                    &quot;3158&quot;,
+                    &quot;3111&quot;,
+                    &quot;3117&quot;,
+                    &quot;3009&quot;
+                 ],
+                 &quot;image&quot;:{
+                    &quot;full&quot;:&quot;1001.png&quot;,
+                    &quot;sprite&quot;: [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Priorities">
+            <summary>
+              Looks up a localized string similar to {
+               &quot;Aatrox&quot;: 2,
+               &quot;Ahri&quot;: 4,
+               &quot;Akali&quot;: 3,
+               &quot;Alistar&quot;: 1,
+               &quot;Amumu&quot;: 1,
+               &quot;Anivia&quot;: 4,
+               &quot;Annie&quot;: 4,
+               &quot;Ashe&quot;: 4,
+               &quot;Azir&quot;: 4,
+               &quot;Bard&quot;: 1,
+               &quot;Blitzcrank&quot;: 1,
+               &quot;Brand&quot;: 4,
+               &quot;Braum&quot;: 1,
+               &quot;Caitlyn&quot;: 4,
+               &quot;Cassiopeia&quot;: 4,
+               &quot;Chogath&quot;: 2,
+               &quot;Corki&quot;: 4,
+               &quot;Darius&quot;: 2,
+               &quot;Diana&quot;: 3,
+               &quot;Draven&quot;: 4,
+               &quot;DrMundo&quot;: 1,
+               &quot;Ekko&quot;: 4,
+               &quot;Elise&quot;: 2,
+               &quot;Evelynn&quot;: 2,
+               &quot;Ezreal&quot;: 4,
+               &quot;FiddleSticks&quot;: 3,
+               &quot;Fiora&quot;: 3,
+               &quot;Fizz&quot;: 3,
+               &quot;Ga [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.SimpleNotification">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Properties.Resources.Theme">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:EloBuddy.SDK.Rendering.Sprite">
+            <summary>
+            Easy to draw sprite class.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Rendering.Sprite.Draw(SharpDX.Vector2)">
+            <summary>
+            Draws the sprite on the screen
+            </summary>
+            <param name="position">The position to draw at</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Rendering.Sprite.Draw(SharpDX.Vector2,System.Nullable{SharpDX.Rectangle})">
+            <summary>
+            Draws the sprite on the screen
+            </summary>
+            <param name="position">The position to draw at</param>
+            <param name="rectangle">The rectangle to draw from</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Rendering.Sprite.Draw(SharpDX.Vector2,System.Nullable{SharpDX.Rectangle},System.Nullable{SharpDX.Vector3},System.Nullable{System.Single},System.Nullable{SharpDX.Vector2})">
+            <summary>
+            Draws the sprite on the screen
+            </summary>
+            <param name="position">The position to draw at</param>
+            <param name="rectangle">The rectangle to draw from</param>
+            <param name="centerRef">The center reference of the sprite</param>
+            <param name="rotation">The rotation in radians</param>
+            <param name="scale">The scale</param>
+        </member>
+        <member name="T:EloBuddy.SDK.Rendering.TextureLoader">
+            <summary>
+            Safely load and convert bitmaps to textures which will automatically get disposed on AppDomain unload/exit.
+            Primary advantage for this class is that it also reloads the textures on device resets.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Rendering.TextureLoader.Item(System.String)">
+            <summary>
+            Returns the texture which is indexed by the given key
+            </summary>
+            <param name="key">The index key</param>
+            <returns></returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Rendering.TextureLoader.Load(System.String,System.Drawing.Bitmap)">
+            <summary>
+            Loads and converts the given bitmap to a texture
+            </summary>
+            <param name="key">The index key</param>
+            <param name="bitmap">The bitmap to convert and load</param>
+            <returns>The loaded texture</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Rendering.TextureLoader.Unload(System.String)">
+            <summary>
+            Unloads the texture which is associated with the index key from memory
+            </summary>
+            <param name="key">The index key</param>
+            <returns></returns>
+        </member>
+        <member name="T:EloBuddy.SDK.Spell.SpellBase">
+            <summary>
+            Base of all spells
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.Handle">
+            <summary>
+            The SpellDataInst handle which this class wraps
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.LastCastFailure">
+            <summary>
+            When any .Cast() method returns false, the failure code
+            will be stored in this property
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.IsLearned">
+            <summary>
+            Returns true if the spell is learned
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.State">
+            <summary>
+            Returns the spell state
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.ToggleState">
+            <summary>
+            Returns the togglestate of the spell
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.ManaCost">
+            <summary>
+            Returns the mana cost of the spell
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.AmmoQuantity">
+            <summary>
+            Returns the quantity of ammo that the spell has
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.Spell.SpellBase.DamageType">
+            <summary>
+            Returns the damagetype
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Spell.SpellBase.GetTarget">
+            <summary>
+            Get target using target selector
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Spell.SpellBase.CanCast(EloBuddy.Obj_AI_Base)">
+            <summary>
+            Simple way of checking if target is in range and it`s not null
+            </summary>
+            <param name="target"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EloBuddy.SDK.Spell.Ranged">
+            <summary>
+            Base of Skillshot and targetted spells
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Spell.Skillshot.GetBestConeCastPosition(System.Collections.Generic.IEnumerable{EloBuddy.Obj_AI_Base},System.Int32,System.Int32)">
+            <summary>
+            Get the best postion to cast a cone spell
+            </summary>
+            <param name="entities"></param>
+            <param name="hitChance"></param>
+            <param name="moreDelay"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Spell.Skillshot.CastIfItWillHit(System.Int32,System.Int32)">
+            <summary>
+            Cast os the best position to hit as many heroes as possible
+            </summary>
+            <param name="minTargets">The minimun enemy hero count to cast spell</param>
+            <param name="minHitchancePercent">Hitchance</param>
+            <returns></returns>
+        </member>
+        <member name="M:EloBuddy.SDK.Spell.Skillshot.CastOnBestFarmPosition(System.Int32,System.Int32)">
+            <summary>
+            Cast spells on the best farm position
+            </summary>
+            <param name="minMinion"></param>
+            <param name="hitChance"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EloBuddy.SDK.Spell.Active">
+            <summary>
+            Active spells are spells that dont use neither a target nor a position to cast
+            </summary>
+        </member>
+        <member name="T:EloBuddy.SDK.Spell.SimpleSkillshot">
+            <summary>
+            Simple skillshots only requires range to work
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.Spell.SimpleSkillshot.#ctor(EloBuddy.SpellSlot,System.UInt32,EloBuddy.DamageType)">
+            <summary>
+            Simple SkillShot Constructor
+            </summary>
+            <param name="spellSlot">Slot of the spell</param>
+            <param name="spellRange">Range of the spell</param>
+        </member>
+        <member name="M:EloBuddy.SDK.Spell.SimpleSkillshot.Cast(SharpDX.Vector3)">
+            <summary>
+            Cast spell on the position
+            </summary>
+            <param name="targetPosition">Position to cast the spell</param>
+            <returns></returns>
+        </member>
+        <member name="T:EloBuddy.SDK.ThirdParty.Glide.Ease">
+            <summary>
+            Static class with useful easer functions that can be used by Tweens.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ToAndFro(System.Func{System.Single,System.Single})">
+            <summary>
+            Ease a value to its target and then back. Use this to wrap another easing function.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ToAndFro(System.Single)">
+            <summary>
+            Ease a value to its target and then back.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ElasticIn(System.Single)">
+            <summary>
+            Elastic in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ElasticOut(System.Single)">
+            <summary>
+            Elastic out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ElasticInOut(System.Single)">
+            <summary>
+            Elastic in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuadIn(System.Single)">
+            <summary>
+            Quadratic in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuadOut(System.Single)">
+            <summary>
+            Quadratic out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuadInOut(System.Single)">
+            <summary>
+            Quadratic in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.CubeIn(System.Single)">
+            <summary>
+            Cubic in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.CubeOut(System.Single)">
+            <summary>
+            Cubic out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.CubeInOut(System.Single)">
+            <summary>
+            Cubic in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuartIn(System.Single)">
+            <summary>
+            Quart in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuartOut(System.Single)">
+            <summary>
+            Quart out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuartInOut(System.Single)">
+            <summary>
+            Quart in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuintIn(System.Single)">
+            <summary>
+            Quint in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuintOut(System.Single)">
+            <summary>
+            Quint out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.QuintInOut(System.Single)">
+            <summary>
+            Quint in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.SineIn(System.Single)">
+            <summary>
+            Sine in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.SineOut(System.Single)">
+            <summary>
+            Sine out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.SineInOut(System.Single)">
+            <summary>
+            Sine in and out
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.BounceIn(System.Single)">
+            <summary>
+            Bounce in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.BounceOut(System.Single)">
+            <summary>
+            Bounce out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.BounceInOut(System.Single)">
+            <summary>
+            Bounce in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.CircIn(System.Single)">
+            <summary>
+            Circle in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.CircOut(System.Single)">
+            <summary>
+            Circle out
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.CircInOut(System.Single)">
+            <summary>
+            Circle in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ExpoIn(System.Single)">
+            <summary>
+            Exponential in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ExpoOut(System.Single)">
+            <summary>
+            Exponential out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.ExpoInOut(System.Single)">
+            <summary>
+            Exponential in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.BackIn(System.Single)">
+            <summary>
+            Back in.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.BackOut(System.Single)">
+            <summary>
+            Back out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Ease.BackInOut(System.Single)">
+            <summary>
+            Back in and out.
+            </summary>
+            <param name="t">Time elapsed.</param>
+            <returns>Eased timescale.</returns>
+        </member>
+        <member name="P:EloBuddy.SDK.ThirdParty.Glide.Tween.TimeRemaining">
+            <summary>
+            The time remaining before the tween ends or repeats.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.ThirdParty.Glide.Tween.Completion">
+            <summary>
+            A value between 0 and 1, where 0 means the tween has not been started and 1 means that it has completed.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.ThirdParty.Glide.Tween.Looping">
+            <summary>
+            Whether the tween is currently looping.
+            </summary>
+        </member>
+        <member name="P:EloBuddy.SDK.ThirdParty.Glide.Tween.Target">
+            <summary>
+            The object this tween targets. Will be null if the tween represents a timer.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.From(System.Object)">
+            <summary>
+            Apply target values to a starting point before tweening.
+            </summary>
+            <param name="values">The values to apply, in an anonymous type ( new { prop1 = 100, prop2 = 0} ).</param>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Ease(System.Func{System.Single,System.Single})">
+            <summary>
+            Set the easing function.
+            </summary>
+            <param name="ease">The Easer to use.</param>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.OnBegin(System.Action)">
+            <summary>
+            Set a function to call when the tween begins (useful when using delays). Can be called multiple times for compound callbacks.
+            </summary>
+            <param name="callback">The function that will be called when the tween starts, after the delay.</param>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.OnComplete(System.Action)">
+            <summary>
+            Set a function to call when the tween finishes. Can be called multiple times for compound callbacks.
+            If the tween repeats infinitely, this will be called each time; otherwise it will only run when the tween is finished repeating.
+            </summary>
+            <param name="callback">The function that will be called on tween completion.</param>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.OnUpdate(System.Action)">
+            <summary>
+            Set a function to call as the tween updates. Can be called multiple times for compound callbacks.
+            </summary>
+            <param name="callback">The function to use.</param>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Repeat(System.Int32)">
+            <summary>
+            Enable repeating.
+            </summary>
+            <param name="times">Number of times to repeat. Leave blank or pass a negative number to repeat infinitely.</param>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.RepeatDelay(System.Single)">
+            <summary>
+            Set a delay for when the tween repeats.
+            </summary>
+            <param name="delay">How long to wait before repeating.</param>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Reflect">
+            <summary>
+            Sets the tween to reverse every other time it repeats. Repeating must be enabled for this to have any effect.
+            </summary>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Reverse">
+            <summary>
+            Swaps the start and end values of the tween.
+            </summary>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Rotation(EloBuddy.SDK.ThirdParty.Glide.Tween.RotationUnit)">
+            <summary>
+            Whether this tween handles rotation.
+            </summary>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Round">
+            <summary>
+            Whether tweened values should be rounded to integer values.
+            </summary>
+            <returns>A reference to this.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Cancel(System.String[])">
+            <summary>
+            Cancel tweening given properties.
+            </summary>
+            <param name="properties"></param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Cancel">
+            <summary>
+            Remove tweens from the tweener without calling their complete functions.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.CancelAndComplete">
+            <summary>
+            Assign tweens their final value and remove them from the tweener.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Pause">
+            <summary>
+            Set tweens to pause. They won't update and their delays won't tick down.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.PauseToggle">
+            <summary>
+            Toggle tweens' paused value.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.Resume">
+            <summary>
+            Resumes tweens from a paused state.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.SetLerper``1(System.Type)">
+            <summary>
+            Associate a Lerper class with a property type.
+            </summary>
+            <typeparam name="TLerper">The Lerper class to use for properties of the given type.</typeparam>
+            <param name="type">The type of the property to associate the given Lerper with.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.Tween``1(``0,System.Object,System.Single,System.Single,System.Boolean)">
+            <summary>
+            <para>Tweens a set of properties on an object.</para>
+            <para>To tween instance properties/fields, pass the object.</para>
+            <para>To tween static properties/fields, pass the type of the object, using typeof(ObjectType) or object.GetType().</para>
+            </summary>
+            <param name="target">The object or type to tween.</param>
+            <param name="values">The values to tween to, in an anonymous type ( new { prop1 = 100, prop2 = 0} ).</param>
+            <param name="duration">Duration of the tween in seconds.</param>
+            <param name="delay">Delay before the tween starts, in seconds.</param>
+            <param name="overwrite">Whether pre-existing tweens should be overwritten if this tween involves the same properties.</param>
+            <returns>The tween created, for setting properties on.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.Timer(System.Single,System.Single)">
+            <summary>
+            Starts a simple timer for setting up callback scheduling.
+            </summary>
+            <param name="duration">How long the timer will run for, in seconds.</param>
+            <param name="delay">How long to wait before starting the timer, in seconds.</param>
+            <returns>The tween created, for setting properties.</returns>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.Cancel">
+            <summary>
+            Remove tweens from the tweener without calling their complete functions.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.CancelAndComplete">
+            <summary>
+            Assign tweens their final value and remove them from the tweener.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.Pause">
+            <summary>
+            Set tweens to pause. They won't update and their delays won't tick down.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.PauseToggle">
+            <summary>
+            Toggle tweens' paused value.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.Resume">
+            <summary>
+            Resumes tweens from a paused state.
+            </summary>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.Update(System.Single)">
+            <summary>
+            Updates the tweener and all objects it contains.
+            </summary>
+            <param name="secondsElapsed">Seconds elapsed since last update.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.TargetCancel(System.Object)">
+            <summary>
+            Cancel all tweens with the given target.
+            </summary>
+            <param name="target">The object being tweened that you want to cancel.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.TargetCancel(System.Object,System.String[])">
+            <summary>
+            Cancel tweening named properties on the given target.
+            </summary>
+            <param name="target">The object being tweened that you want to cancel properties on.</param>
+            <param name="properties">The properties to cancel.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.TargetCancelAndComplete(System.Object)">
+            <summary>
+            Cancel, complete, and call complete callbacks for all tweens with the given target..
+            </summary>
+            <param name="target">The object being tweened that you want to cancel and complete.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.TargetPause(System.Object)">
+            <summary>
+            Pause all tweens with the given target.
+            </summary>
+            <param name="target">The object being tweened that you want to pause.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.TargetPauseToggle(System.Object)">
+            <summary>
+            Toggle the pause state of all tweens with the given target.
+            </summary>
+            <param name="target">The object being tweened that you want to toggle pause.</param>
+        </member>
+        <member name="M:EloBuddy.SDK.ThirdParty.Glide.Tween.TweenerImpl.TargetResume(System.Object)">
+            <summary>
+            Resume all tweens with the given target.
+            </summary>
+            <param name="target">The object being tweened that you want to resume.</param>
+        </member>
+    </members>
+</doc>

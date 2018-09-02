@@ -1,0 +1,12 @@
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\Katarina.exe.config
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\Katarina.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\Katarina.pdb
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\EloBuddy.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\EloBuddy.SDK.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\SharpDX.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\obj\Debug\Katarina.exe
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\obj\Debug\Katarina.pdb
+C:\Users\Bryce\Documents\GitHub\PrivateAddons\Katarina\obj\Debug\Katarina.csprojResolveAssemblyReference.cache
